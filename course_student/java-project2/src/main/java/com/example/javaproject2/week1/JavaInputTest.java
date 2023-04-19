@@ -10,3 +10,5 @@ public class JavaInputTest {
     public static void main(String[] args) throws IOException {
         JavaInput javaInput = new JavaInput();
         javaInput.readTwoChars();
+    }
+}
