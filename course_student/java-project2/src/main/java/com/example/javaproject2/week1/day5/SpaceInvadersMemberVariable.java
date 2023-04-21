@@ -5,12 +5,12 @@ public class SpaceInvadersMemberVariable {
 
     public void moveLeft(){
         location = location -1; // 초기화하지 않아도 기본값이 0으로 작동
-        System.out.printf("moveLeft : %d\n", location);
+//        System.out.printf("moveLeft : %d\n", location);
     }
 
     public void moveRight(){
         location = location +1;
-        System.out.printf("moveRight : %d\n", location);
+//        System.out.printf("moveRight : %d\n", location);
     }
 
     public static void main(String[] args) {
@@ -23,5 +23,9 @@ public class SpaceInvadersMemberVariable {
         simv.moveRight();
         simv.moveRight();
 
+        System.out.printf("최종 위치 : %d\n", simv.location);
+
+        simv.moveRight();
+        System.out.printf("최종 위치 : %d\n", simv.location);
     }
 }
