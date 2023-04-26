@@ -9,9 +9,7 @@ public class RemainderNum {
         num = num/10;
         int thirdRemainder = num%10;
 
-        System.out.println(thirdRemainder);
-        System.out.println(secondRemainder);
-        System.out.println(firstRemainder);
+        System.out.println(firstRemainder+secondRemainder+thirdRemainder);
 
     }
 
