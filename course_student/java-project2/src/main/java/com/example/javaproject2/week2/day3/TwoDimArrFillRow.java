@@ -5,6 +5,14 @@ import java.util.Scanner;
 
 public class TwoDimArrFillRow {
 
+    public static void fillRow(int[][] arr, int rowNum){
+        arr[rowNum][0] = 1;
+        arr[rowNum][1] = 1;
+        arr[rowNum][2] = 1;
+        arr[rowNum][3] = 1;
+        arr[rowNum][4] = 1;
+    }
+
     public static void printArray(int[][] arr){
         System.out.println(Arrays.toString(arr[0]));
         System.out.println(Arrays.toString(arr[1]));
@@ -19,11 +27,7 @@ public class TwoDimArrFillRow {
         Scanner sc = new Scanner(System.in);
         int val = sc.nextInt();
 
-        arr[val][0] = 1;
-        arr[val][1] = 1;
-        arr[val][2] = 1;
-        arr[val][3] = 1;
-        arr[val][4] = 1;
+        fillRow(arr, val);
 
         printArray(arr);
     }
