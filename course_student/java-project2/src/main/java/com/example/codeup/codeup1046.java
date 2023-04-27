@@ -10,11 +10,11 @@ public class codeup1046 {
         int val2 = sc.nextInt();
         int val3 = sc.nextInt();
 
-        int sum = val1+val2+val3;
-        double average = sum/ 3.0;
+        int sum = val1 + val2 + val3;
+        double average = sum / 3.0;
 
         System.out.println(sum);
-        System.out.printf("%.1f",average);
+        System.out.printf("%.1f", average);
     }
 }
 

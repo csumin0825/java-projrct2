@@ -9,6 +9,6 @@ public class codeup1049 {
         int val1 = sc.nextInt();
         int val2 = sc.nextInt();
 
-        System.out.println(val1>val2 ? 1: 0);
+        System.out.println(val1 > val2 ? 1 : 0);
     }
 }
