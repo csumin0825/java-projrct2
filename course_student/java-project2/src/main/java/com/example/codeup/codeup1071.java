@@ -1,6 +1,5 @@
 package com.example.codeup;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class codeup1071 {
