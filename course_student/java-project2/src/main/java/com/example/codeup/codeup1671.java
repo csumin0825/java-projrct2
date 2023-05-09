@@ -3,7 +3,7 @@ package com.example.codeup;
 import java.util.Scanner;
 
 public class codeup1671 {
-    public static void play(int computer, int user){
+        public static void play(int computer, int user){
         if(computer == user){
             System.out.println("tie");
         }else if(computer == 0){
@@ -26,6 +26,7 @@ public class codeup1671 {
             }
         }
     }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int computer = sc.nextInt();
