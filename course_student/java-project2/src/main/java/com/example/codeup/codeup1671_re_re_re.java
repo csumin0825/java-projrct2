@@ -18,9 +18,11 @@ public class codeup1671_re_re_re {
         int computer = sc.nextInt();
         int user = sc.nextInt();
 
+        codeup1671_re_re_re code = new codeup1671_re_re_re();
+
 
 
         // 0: 바위, 1: 가위, 2: 보
-        play(computer, user);
+        code.play(computer, user);
     }
 }
