@@ -68,10 +68,6 @@ public class codeup3108 {
         } else {
             deleteStudent(student);
         }
-//        switch (student.getCode()) {
-//            case "I" -> addAStudent(student);
-//            case "D" -> deleteStudent(student);
-//        }
     }
 
     private void addAStudent(Student student) {
@@ -117,14 +113,6 @@ public class codeup3108 {
             arr[i] = sc.nextInt();
         }
         codeup.printSpecificStudent(arr);
-
-
-//        String[] arr1 = sc.nextLine().split(" ");
-//        int[] arr2 = new int[arr1.length];
-//        for (int i = 0; i < arr1.length; i++) {
-//            arr2[i] = Integer.parseInt(arr1[i]);
-//        }
-//        codeup.printSpecificStudent(arr2);
 
 //        codeup.process("I 1011 한라산");
 //        codeup.process("I 999 백두산");
