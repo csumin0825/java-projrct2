@@ -109,8 +109,6 @@ public class codeup3108 {
         sc.nextLine();
         codeup3108 codeup = new codeup3108();
         for (int i = 0; i < size; i++) {
-//            sc.reset();
-//            sc.skip("\n");
             codeup.process(sc.nextLine());
         }
 
