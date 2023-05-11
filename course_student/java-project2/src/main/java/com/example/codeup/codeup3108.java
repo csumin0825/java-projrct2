@@ -77,12 +77,6 @@ public class codeup3108 {
         }
     }
 
-    private void printStudents() {
-        for (Student student : students) {
-            System.out.printf("%s %s %s\n", student.getCode(), student.getTestId(), student.getName());
-        }
-    }
-
     private void printSpecificStudent(int[] arr) {
         // 정렬
         Collections.sort(students, new Comparator<Student>() {
