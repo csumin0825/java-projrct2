@@ -13,6 +13,7 @@ public class InfoPrinter {
     }
     public static void main(String[] args) throws IOException {
         InfoPrinter IP = new InfoPrinter(new InputStreamPrinter());
+//        InfoPrinter IP = new InfoPrinter(new BufferReaderPrinter());
         IP.printInfo("./hospital_Info_0920_utf8.csv");
     }
 }
