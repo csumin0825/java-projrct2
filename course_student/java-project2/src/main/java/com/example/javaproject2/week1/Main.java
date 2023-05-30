@@ -1,4 +1,4 @@
-package com.example;
+package com.example.javaproject2.week1;
 
 // Press ⇧ twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.

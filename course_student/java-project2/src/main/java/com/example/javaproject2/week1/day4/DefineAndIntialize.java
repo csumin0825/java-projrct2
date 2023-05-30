@@ -1,6 +1,6 @@
 package com.example.javaproject2.week1.day4;
 
-import com.example.PrintHello;
+import com.example.javaproject2.week1.PrintHello;
 
 import java.util.Scanner;
 

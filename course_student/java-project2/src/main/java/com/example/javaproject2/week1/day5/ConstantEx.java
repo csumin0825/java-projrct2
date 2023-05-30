@@ -1,6 +1,6 @@
 package com.example.javaproject2.week1.day5;
 
-import com.example.PrintHello;
+import com.example.javaproject2.week1.PrintHello;
 
 public class ConstantEx {
     // 상수를 대문자_언더바 형식
