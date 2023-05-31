@@ -7,6 +7,4 @@ public class Main {
 
         MyUtils.game369EX();
     }
-
-
 }
